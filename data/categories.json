@@ -47,5 +47,12 @@
       "Electric Bikes",
       "BMX"
     ]
+  },
+  {
+    "id": 5,
+    "name": "Printers",
+    "subcategories": [
+      "Ink Jet"
+    ]
   }
 ]

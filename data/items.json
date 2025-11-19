@@ -50,5 +50,47 @@
     "purchase_date": "2024-01-12",
     "profit_margin": 7000,
     "description": "21-speed mountain bike with suspension"
+  },
+  {
+    "item_id": 5,
+    "item_name": "Samsung s10 plus",
+    "item_category": "Electronics",
+    "item_subcategory": "Televisions",
+    "item_condition": "like new",
+    "purchase_price": 12000,
+    "sale_price": 20000,
+    "quantity_in_stock": 1,
+    "purchase_date": "2025-11-19",
+    "sale_date": "",
+    "description": "ggg",
+    "profit_margin": 8000
+  },
+  {
+    "item_id": 6,
+    "item_name": "Hp core i7",
+    "item_category": "Electronics",
+    "item_subcategory": "Laptops",
+    "item_condition": "used",
+    "purchase_price": 16000,
+    "sale_price": 30000,
+    "quantity_in_stock": 1,
+    "purchase_date": "2025-11-19",
+    "sale_date": "",
+    "description": "In mint condition",
+    "profit_margin": 14000
+  },
+  {
+    "item_id": 7,
+    "item_name": "Asus core i7",
+    "item_category": "Electronics",
+    "item_subcategory": "Laptops",
+    "item_condition": "used",
+    "purchase_price": 17000,
+    "sale_price": 36000,
+    "quantity_in_stock": 1,
+    "purchase_date": "2025-11-19",
+    "sale_date": "",
+    "description": "In mint condition",
+    "profit_margin": 19000
   }
 ]

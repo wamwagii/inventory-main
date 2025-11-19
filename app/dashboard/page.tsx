@@ -136,7 +136,7 @@ export default function Dashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <h1 className="text-xl font-semibold">Inventory Dashboard</h1>
+              <h1 className="text-xl font-semibold">StarWave</h1>
             </div>
             <div className="flex items-center space-x-4">
               <span>Welcome, Admin</span>
@@ -158,25 +158,25 @@ export default function Dashboard() {
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
                 <dt className="text-sm font-medium text-gray-500 truncate">Total Items in Stock</dt>
-                <dd className="mt-1 text-3xl font-semibold text-gray-900">{stats.totalItems}</dd>
+                <dd className="mt-1 text-xl font-semibold text-gray-900">{stats.totalItems}</dd>
               </div>
             </div>
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
                 <dt className="text-sm font-medium text-gray-500 truncate">Total Inventory Value</dt>
-                <dd className="mt-1 text-3xl font-semibold text-gray-900">{formatKES(stats.totalValue)}</dd>
+                <dd className="mt-1 text-xl font-semibold text-gray-900">{formatKES(stats.totalValue)}</dd>
               </div>
             </div>
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
                 <dt className="text-sm font-medium text-gray-500 truncate">Total Profit Potential</dt>
-                <dd className="mt-1 text-3xl font-semibold text-gray-900">{formatKES(stats.totalProfit)}</dd>
+                <dd className="mt-1 text-xl font-semibold text-gray-900">{formatKES(stats.totalProfit)}</dd>
               </div>
             </div>
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
                 <dt className="text-sm font-medium text-gray-500 truncate">Categories</dt>
-                <dd className="mt-1 text-3xl font-semibold text-gray-900">{Object.keys(stats.categoryStats).length}</dd>
+                <dd className="mt-1 text-xl font-semibold text-gray-900">{Object.keys(stats.categoryStats).length}</dd>
               </div>
             </div>
           </div>
