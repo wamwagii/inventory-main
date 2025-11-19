@@ -3,10 +3,11 @@ import { getCategories, saveCategories } from '@/lib/data-server';
 
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> } // Change: params is now a Promise
 ) {
   try {
-    const categoryId = parseInt(params.id);
+    const { id } = await params; // Change: await the params
+    const categoryId = parseInt(id);
     let categories = getCategories();
     
     categories = categories.filter(cat => cat.id !== categoryId);
